@@ -18,6 +18,10 @@ function App() {
         
         <Cube />
       </Canvas>
+      <div>
+        <h2>Controls</h2>
+        <p>Click and drag to rotate the cube</p>
+      </div>
 
     </div>
       
