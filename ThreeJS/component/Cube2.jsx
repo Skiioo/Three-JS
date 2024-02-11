@@ -17,7 +17,7 @@ export function Cube2() {
     <>
       <mesh ref={ref} style={{ width: "100%", height: "100%" }}>
         <Box args={[2, 2, 2]}>
-          <OrbitControls enablePan={false} enableZoom={false} />
+          <OrbitControls enablePan={false}  />
           <boxGeometry />
           <meshBasicMaterial color="blue" />
         </Box>
