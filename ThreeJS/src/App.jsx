@@ -2,7 +2,7 @@ import { React } from 'react';
 
 import { Cube } from '../component/cube';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { Box, OrbitControls} from '@react-three/drei';
+
 
 import './App.css'
 
