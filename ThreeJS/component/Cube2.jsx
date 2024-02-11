@@ -3,7 +3,7 @@ import { Box, OrbitControls } from "@react-three/drei";
 import { useFrame, useThree } from "@react-three/fiber";
 import { EdgesGeometry, LineBasicMaterial } from "three";
 
-export function Cube() {
+export function Cube2() {
   const ref = useRef(null);
   const { camera } = useThree();
   camera.position.z = 2;
@@ -16,10 +16,10 @@ export function Cube() {
   return (
     <>
       <mesh ref={ref} style={{ width: "100%", height: "100%" }}>
-        <Box args={[5, 5, 5]}>
-          <OrbitControls enablePan={false} enableZoom={false} enableRotate={false}/>
+        <Box args={[2, 2, 2]}>
+          <OrbitControls enablePan={false} enableZoom={false} />
           <boxGeometry />
-          <meshBasicMaterial color="red" />
+          <meshBasicMaterial color="blue" />
         </Box>
       </mesh>
     </>
